@@ -15,12 +15,12 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 #### 2. Installation
 
-- Pull down this script onto your CentOS machine
-- Change the write permissions for the script:
+1) Pull down this script onto your CentOS machine
+2) Change the write permissions for the script:
 ```bash
 chmod +x jl_installer.sh
 ```
-- Run the script with sudo:
+3) Run the script with sudo:
 ```bash
 sudo ./jl_installer.sh
 ```
@@ -28,7 +28,7 @@ sudo ./jl_installer.sh
 
 I'm planning to update the script in the future and I have some ideas about what new features I'd like to add. 
 
-Here are those changes:
+#### Here are those changes:
 - Prompt user for additional "Useful Packages"
 - Add installation and configuration section for SNMP
 - Add more configuration options for SSH
