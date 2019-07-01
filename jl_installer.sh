@@ -71,7 +71,7 @@ checksshconfig() {
 # Introduction
 echo -e "\e[38;5;15m==| \e[38;5;39mWelcome to Jacques' Linux Install Script! \e[38;5;15m|==\e[0m"
 echo -e '\e[38;5;68m-------------------------------------------------\e[0m'
-echo -e '\e[38;5;68m|                                       \e[38;5;15mv 0.3.1 \e[38;5;68m|\e[0m'
+echo -e '\e[38;5;68m|                                       \e[38;5;15mv 0.3.2 \e[38;5;68m|\e[0m'
 echo -e '\e[38;5;68m-------------------------------------------------\e[0m'
 echo ''
 read -r -s -p '[ Press ENTER to continue ]'
@@ -114,13 +114,13 @@ if ask "Do you want to install Useful Packages on the system?: "; then
   echo -e '   \e[38;5;68m----------------------------------------\e[0m'
   echo -e '   \e[38;5;121mepel-release\e[38;5;15m, \e[38;5;121mnano\e[38;5;15m, \e[38;5;121mwget\e[38;5;15m, \e[38;5;121mcurl\e[38;5;15m, \e[38;5;121mnet-tools\e[38;5;15m,\e[0m'
   echo -e '   \e[38;5;121mlsof\e[38;5;15m, \e[38;5;121mbash-completion\e[38;5;15m, \e[38;5;121mpsmisc\e[38;5;15m, \e[38;5;121munzip\e[38;5;15m, \e[38;5;121mhtop\e[38;5;15m,\e[0m'
-  echo -e '   \e[38;5;121mtmux\e[0m'
+  echo -e '   \e[38;5;121mtmux\e[38;5;15m, \e[38;5;121mgit\e[0m'
   echo ''
   read -r -s -p '[ Press ENTER to continue ]'
   clear
   yum -y install epel-release
   yum -y update
-  yum -y install nano wget curl net-tools lsof bash-completion psmisc unzip htop tmux
+  yum -y install nano wget curl net-tools lsof bash-completion psmisc unzip htop tmux git
   echo ''
   echo -e '\e[38;5;68m -------------------------------\e[0m'
   echo -e '\e[38;5;68m| \e[38;5;15mUseful Packages: \e[38;5;68m|| \e[38;5;46mINSTALLED \e[38;5;68m|\e[0m'
